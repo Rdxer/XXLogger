@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211EDE29DCD64DF22289CC4664ED5E7D /* Pods-XXLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6654FC648399C850D285F25A58DD82 /* Pods-XXLogger_Example-dummy.m */; };
+		276A3F210D0A3AC14E373B862475604D /* Pods-XXLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DFCD368B4CD5C174BABAA3399403F4 /* Pods-XXLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47893CAA74E9B38FECC177598BC0C054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6B56EF50D90219B6391E513A3671D65D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		770D1EC55279A3B1D9974D4BE1DBCEFB /* XXLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F05151171E37A838408902E295BE8D /* XXLogger.swift */; };
+		78935C9F16926F9E370870904C514C55 /* XXLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D856B2548C93BF5C4A3A6A888E6E727 /* XXLogger-dummy.m */; };
+		789F8044B6A2AF2954FDB1EC552748AA /* XXLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6616F12DB6E3C25AF10BE41204C9239E /* XXLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AF168A110466B732E34A5A324B67DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		ED286C5F4CFC7DFAAC6434F1FE047532 /* Pods-XXLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EC96B3D22A673FE986D186BD1C7F12 /* Pods-XXLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF33EE31B5FA6B1D7813D03763E5EAEC /* Pods-XXLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B4160C77E0B52F6A5FBF41930F5D30 /* Pods-XXLogger_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85A9950E12B83CD1E535696FC8BFC088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F491379660F79437F4A8391C38C92752;
+			remoteInfo = XXLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013AF33316BC83818F7D2084B96598B6 /* Pods-XXLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		05DFCD368B4CD5C174BABAA3399403F4 /* Pods-XXLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0F1E943FEDC30B4260E6B0F0354C2262 /* Pods-XXLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		119ED32CFEB15071B7C230616CA39264 /* XXLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXLogger-prefix.pch"; sourceTree = "<group>"; };
+		152D7848AC475B0B534C2AC57AD74F49 /* Pods-XXLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XXLogger_Example.modulemap"; sourceTree = "<group>"; };
+		2D6654FC648399C850D285F25A58DD82 /* Pods-XXLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		39F05151171E37A838408902E295BE8D /* XXLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XXLogger.swift; sourceTree = "<group>"; };
+		3CDCDF2647829B6875123EC7FBAC11C3 /* Pods-XXLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4A1F7D800563A34A138382B626397A3E /* Pods_XXLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XXLogger_Example.framework; path = "Pods-XXLogger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EC96B3D22A673FE986D186BD1C7F12 /* Pods-XXLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		5A21362D34541B8E542DE91DC879938C /* XXLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XXLogger.modulemap; sourceTree = "<group>"; };
+		611C079182A4DD5A4C80D2FD114A07B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6616F12DB6E3C25AF10BE41204C9239E /* XXLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXLogger-umbrella.h"; sourceTree = "<group>"; };
+		66227C4A736796995292321234D751D1 /* Pods-XXLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XXLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		7D856B2548C93BF5C4A3A6A888E6E727 /* XXLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXLogger-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5F9534862883A04F21B85B0C166A74E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83C3B61EEBE5EA3BBA6A7A59AD5A1FD /* Pods-XXLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2B4160C77E0B52F6A5FBF41930F5D30 /* Pods-XXLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+		B823793F9EB13BFE3F8CE5BB0866ED41 /* Pods-XXLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB536D7F3A6610BEBCE887224AB9FA59 /* Pods-XXLogger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXLogger_Tests-resources.sh"; sourceTree = "<group>"; };
+		BBDC932C883C2E8029785306C06FE1BF /* Pods-XXLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3D5D0C5A818B4D9BABC570873731891 /* Pods-XXLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4F7F096EA56B692B33DA8D05D1350AF /* Pods-XXLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DAE7574C630AF16454699EC769DCEC20 /* XXLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXLogger.xcconfig; sourceTree = "<group>"; };
+		DC5B0AC56AC9E50BF43871690045440C /* Pods-XXLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E8151901922CF1730AB1483D3187FA60 /* Pods-XXLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ED9B558BFBACF50D0729A1E19FABA09E /* XXLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XXLogger.framework; path = XXLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21AB648E73ADB69777476A44D620C73 /* Pods_XXLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XXLogger_Tests.framework; path = "Pods-XXLogger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85F1974E130A9A8335BB9BE52550D69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B91903880AE6940A536DD88B5C3CAB /* Pods-XXLogger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXLogger_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A1BB3B7FF7343261EF698E4C00B6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF168A110466B732E34A5A324B67DD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C0F6264DB742A060EC7A6852C2F071F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B56EF50D90219B6391E513A3671D65D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8284B01D08850F53AFF425FB03A28A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47893CAA74E9B38FECC177598BC0C054 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114684FEC51A8754627EC1526F5B2B74 /* Pods-XXLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F9534862883A04F21B85B0C166A74E /* Info.plist */,
+				66227C4A736796995292321234D751D1 /* Pods-XXLogger_Tests.modulemap */,
+				BBDC932C883C2E8029785306C06FE1BF /* Pods-XXLogger_Tests-acknowledgements.markdown */,
+				A83C3B61EEBE5EA3BBA6A7A59AD5A1FD /* Pods-XXLogger_Tests-acknowledgements.plist */,
+				B2B4160C77E0B52F6A5FBF41930F5D30 /* Pods-XXLogger_Tests-dummy.m */,
+				013AF33316BC83818F7D2084B96598B6 /* Pods-XXLogger_Tests-frameworks.sh */,
+				BB536D7F3A6610BEBCE887224AB9FA59 /* Pods-XXLogger_Tests-resources.sh */,
+				05DFCD368B4CD5C174BABAA3399403F4 /* Pods-XXLogger_Tests-umbrella.h */,
+				B823793F9EB13BFE3F8CE5BB0866ED41 /* Pods-XXLogger_Tests.debug.xcconfig */,
+				D4F7F096EA56B692B33DA8D05D1350AF /* Pods-XXLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-XXLogger_Tests";
+			path = "Target Support Files/Pods-XXLogger_Tests";
+			sourceTree = "<group>";
+		};
+		221596AD260F7259FB7D5E1AA0E6B7A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB47FD59720FEE83F55C1AB77B3CD46A /* Pods-XXLogger_Example */,
+				114684FEC51A8754627EC1526F5B2B74 /* Pods-XXLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2B7A62FAE52D0013C48BCA47571513AF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE9331926AF73A25D90BD571B5A7D9 /* XXLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		49C50CD26A4EC2572DE1817EAEB82F6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A1F7D800563A34A138382B626397A3E /* Pods_XXLogger_Example.framework */,
+				F21AB648E73ADB69777476A44D620C73 /* Pods_XXLogger_Tests.framework */,
+				ED9B558BFBACF50D0729A1E19FABA09E /* XXLogger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2B7A62FAE52D0013C48BCA47571513AF /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				49C50CD26A4EC2572DE1817EAEB82F6E /* Products */,
+				221596AD260F7259FB7D5E1AA0E6B7A4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		989DD9C97F1ECC3CB7703DEA83F57EBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85F1974E130A9A8335BB9BE52550D69 /* Info.plist */,
+				5A21362D34541B8E542DE91DC879938C /* XXLogger.modulemap */,
+				DAE7574C630AF16454699EC769DCEC20 /* XXLogger.xcconfig */,
+				7D856B2548C93BF5C4A3A6A888E6E727 /* XXLogger-dummy.m */,
+				119ED32CFEB15071B7C230616CA39264 /* XXLogger-prefix.pch */,
+				6616F12DB6E3C25AF10BE41204C9239E /* XXLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XXLogger";
+			sourceTree = "<group>";
+		};
+		B977EF002A206FAF8120934CE796B350 /* XXLogger */ = {
+			isa = PBXGroup;
+			children = (
+				D154C96680DAFC4EB4B4548366B431F0 /* Classes */,
+			);
+			name = XXLogger;
+			path = XXLogger;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D154C96680DAFC4EB4B4548366B431F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				39F05151171E37A838408902E295BE8D /* XXLogger.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FAAE9331926AF73A25D90BD571B5A7D9 /* XXLogger */ = {
+			isa = PBXGroup;
+			children = (
+				989DD9C97F1ECC3CB7703DEA83F57EBA /* Support Files */,
+				B977EF002A206FAF8120934CE796B350 /* XXLogger */,
+			);
+			name = XXLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FB47FD59720FEE83F55C1AB77B3CD46A /* Pods-XXLogger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				611C079182A4DD5A4C80D2FD114A07B4 /* Info.plist */,
+				152D7848AC475B0B534C2AC57AD74F49 /* Pods-XXLogger_Example.modulemap */,
+				D3D5D0C5A818B4D9BABC570873731891 /* Pods-XXLogger_Example-acknowledgements.markdown */,
+				0F1E943FEDC30B4260E6B0F0354C2262 /* Pods-XXLogger_Example-acknowledgements.plist */,
+				2D6654FC648399C850D285F25A58DD82 /* Pods-XXLogger_Example-dummy.m */,
+				3CDCDF2647829B6875123EC7FBAC11C3 /* Pods-XXLogger_Example-frameworks.sh */,
+				F9B91903880AE6940A536DD88B5C3CAB /* Pods-XXLogger_Example-resources.sh */,
+				56EC96B3D22A673FE986D186BD1C7F12 /* Pods-XXLogger_Example-umbrella.h */,
+				E8151901922CF1730AB1483D3187FA60 /* Pods-XXLogger_Example.debug.xcconfig */,
+				DC5B0AC56AC9E50BF43871690045440C /* Pods-XXLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-XXLogger_Example";
+			path = "Target Support Files/Pods-XXLogger_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65E0D0E36814D410CCA1E59C7727E432 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276A3F210D0A3AC14E373B862475604D /* Pods-XXLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B7A7ACE11157EFFF5B5B66B6895933 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED286C5F4CFC7DFAAC6434F1FE047532 /* Pods-XXLogger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1B2D5D5813F539FECCB31207DE44EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789F8044B6A2AF2954FDB1EC552748AA /* XXLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A3B5145D725D998DF94A5552AE7369D /* Pods-XXLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63FF1CBC85202C1C7C53C3F4EC1911F /* Build configuration list for PBXNativeTarget "Pods-XXLogger_Tests" */;
+			buildPhases = (
+				C3449CCFEA7D659162EA20FFFDC5A16C /* Sources */,
+				18A1BB3B7FF7343261EF698E4C00B6EF /* Frameworks */,
+				65E0D0E36814D410CCA1E59C7727E432 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-XXLogger_Tests";
+			productName = "Pods-XXLogger_Tests";
+			productReference = F21AB648E73ADB69777476A44D620C73 /* Pods_XXLogger_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		875BE09826044BF7DDC5AFC19D4F26F5 /* Pods-XXLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0301ADE2BF90E53EAF54AC880BF972A4 /* Build configuration list for PBXNativeTarget "Pods-XXLogger_Example" */;
+			buildPhases = (
+				80F48A77304D658117AB63C1E8C385A7 /* Sources */,
+				A8284B01D08850F53AFF425FB03A28A4 /* Frameworks */,
+				A9B7A7ACE11157EFFF5B5B66B6895933 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A26B27E7358BB8BE0B3F8703703F8C /* PBXTargetDependency */,
+			);
+			name = "Pods-XXLogger_Example";
+			productName = "Pods-XXLogger_Example";
+			productReference = 4A1F7D800563A34A138382B626397A3E /* Pods_XXLogger_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F491379660F79437F4A8391C38C92752 /* XXLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A5E1A5FE1B25C1E4FE95FA2713788A /* Build configuration list for PBXNativeTarget "XXLogger" */;
+			buildPhases = (
+				B72D7A96DDC47C84A90C982DB7A37507 /* Sources */,
+				7C0F6264DB742A060EC7A6852C2F071F /* Frameworks */,
+				AF1B2D5D5813F539FECCB31207DE44EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XXLogger;
+			productName = XXLogger;
+			productReference = ED9B558BFBACF50D0729A1E19FABA09E /* XXLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 49C50CD26A4EC2572DE1817EAEB82F6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				875BE09826044BF7DDC5AFC19D4F26F5 /* Pods-XXLogger_Example */,
+				5A3B5145D725D998DF94A5552AE7369D /* Pods-XXLogger_Tests */,
+				F491379660F79437F4A8391C38C92752 /* XXLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80F48A77304D658117AB63C1E8C385A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211EDE29DCD64DF22289CC4664ED5E7D /* Pods-XXLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72D7A96DDC47C84A90C982DB7A37507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78935C9F16926F9E370870904C514C55 /* XXLogger-dummy.m in Sources */,
+				770D1EC55279A3B1D9974D4BE1DBCEFB /* XXLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3449CCFEA7D659162EA20FFFDC5A16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF33EE31B5FA6B1D7813D03763E5EAEC /* Pods-XXLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99A26B27E7358BB8BE0B3F8703703F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XXLogger;
+			target = F491379660F79437F4A8391C38C92752 /* XXLogger */;
+			targetProxy = 85A9950E12B83CD1E535696FC8BFC088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A00B0B48FEE4F8F115885CC77DEE5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5B0AC56AC9E50BF43871690045440C /* Pods-XXLogger_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XXLogger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXLogger_Example/Pods-XXLogger_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XXLogger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9206AFBF2B99AEDCFF663782349D6FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B823793F9EB13BFE3F8CE5BB0866ED41 /* Pods-XXLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XXLogger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXLogger_Tests/Pods-XXLogger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XXLogger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DED5145D3499A1ED878D08FBD23D5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F7F096EA56B692B33DA8D05D1350AF /* Pods-XXLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XXLogger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXLogger_Tests/Pods-XXLogger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XXLogger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7420532768F2BDC328237F3B5F6FF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE7574C630AF16454699EC769DCEC20 /* XXLogger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XXLogger/XXLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XXLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XXLogger/XXLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XXLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBAA1B4D0335AF0F381886163E418CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8151901922CF1730AB1483D3187FA60 /* Pods-XXLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XXLogger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXLogger_Example/Pods-XXLogger_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XXLogger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F26F9679AD5EB74613A4A8B4962FFE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE7574C630AF16454699EC769DCEC20 /* XXLogger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XXLogger/XXLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XXLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XXLogger/XXLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XXLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0301ADE2BF90E53EAF54AC880BF972A4 /* Build configuration list for PBXNativeTarget "Pods-XXLogger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAA1B4D0335AF0F381886163E418CA8 /* Debug */,
+				2A00B0B48FEE4F8F115885CC77DEE5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A5E1A5FE1B25C1E4FE95FA2713788A /* Build configuration list for PBXNativeTarget "XXLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26F9679AD5EB74613A4A8B4962FFE24 /* Debug */,
+				C7420532768F2BDC328237F3B5F6FF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63FF1CBC85202C1C7C53C3F4EC1911F /* Build configuration list for PBXNativeTarget "Pods-XXLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9206AFBF2B99AEDCFF663782349D6FFA /* Debug */,
+				9DED5145D3499A1ED878D08FBD23D5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

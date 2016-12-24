@@ -1,0 +1,6 @@
+framework module XXLogger {
+  umbrella header "XXLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

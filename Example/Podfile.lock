@@ -1,0 +1,16 @@
+PODS:
+  - XXLogger (0.1.0)
+
+DEPENDENCIES:
+  - XXLogger (from `../`)
+
+EXTERNAL SOURCES:
+  XXLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XXLogger: ca6a8272ab1cc84432f3a0dca3937f46b86b4076
+
+PODFILE CHECKSUM: 64100437cd29854342e18aa7312a9b2613e84381
+
+COCOAPODS: 1.2.0.beta.1
