@@ -21,15 +21,16 @@ public enum LogTagLevel:Int{
     case d = 1
     case w = 10
     case e = 100
-    
-    var description : String {
+}
+
+extension LogTagLevel:CustomStringConvertible{
+    public var description : String {
         switch self{
         case .d: return "😀"
         case .w: return "⚠️"
         case .e: return "❌"
         }
     }
-    
 }
 
 
